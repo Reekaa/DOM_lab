@@ -1,3 +1,18 @@
 body {
   font-family: Palatino;
 }
+
+.books{
+  display: flex;
+  flex-direction: column;
+  background-color: AliceBlue;
+}
+
+.books > li {
+  background-color: Bisque;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
